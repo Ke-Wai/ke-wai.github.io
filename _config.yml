@@ -1,0 +1,12 @@
+title : kewai
+lang  : zh
+description : 课堂内外，丰富多彩
+copyright : @ 2022 - 2022 kewai All Rights Reserved
+
+nav :
+  - name  : 中文
+    link  : /
+  - name  : 备课
+    link  : /BeiKe/
+  - name  : 关于
+    link  : /about.html
