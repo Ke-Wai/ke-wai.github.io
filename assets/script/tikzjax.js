@@ -21861,9 +21861,9 @@ var coredump;
 var code;
 
 async function load() {
-  let tex = await fetch(urlRoot + '/static/wasm/tikzjax.wasm');
+  let tex = await fetch(urlRoot + '/assets/wasm/tikzjax.wasm');
   code = await tex.arrayBuffer();
-  let response = await fetch_readablestream__WEBPACK_IMPORTED_MODULE_5___default()(urlRoot + '/static/gzip/tikzjax.gz');
+  let response = await fetch_readablestream__WEBPACK_IMPORTED_MODULE_5___default()(urlRoot + '/assets/gzip/tikzjax.gz');
   const reader = response.body.getReader();
   const inf = new pako__WEBPACK_IMPORTED_MODULE_3___default.a.Inflate();
 
