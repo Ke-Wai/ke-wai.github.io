@@ -1,12 +1,10 @@
 title : 课外
 lang  : zh
 description : 课堂内外，丰富多彩
-copyright : © 2022 - 2022 kewai All Rights Reserved
+copyright : © 2022 - 2024 kewai All Rights Reserved
 
 nav :
-  - name  : 中文
+  - name  : 文章
     link  : /
-  - name  : 备课
-    link  : /BeiKe/
   - name  : 关于
     link  : /about.html
