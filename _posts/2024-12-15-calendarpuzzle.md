@@ -1,7 +1,6 @@
 ---
 layout: default
 title: CalendarPuzzle
-tags: 趣味数学
 ---
 
 # CalendarPuzzle Solver
