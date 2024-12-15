@@ -5,16 +5,15 @@ title: 课堂内外，丰富多彩
 
 <p>{{ page.title }}</p>
 <p>{{ user.name }}</p>
-<ul>
+<p><ul>
     {% for post in site.posts %}
     <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
 </ul>
-<BR>
--------
-<BR>
+</p>
+<p>
 {% for tag in site.tags %}
     <h3>{{ tag[0] }}</h3>
         <ul>
@@ -23,7 +22,8 @@ title: 课堂内外，丰富多彩
             {% endfor %}
         </ul>
 {% endfor %}
--------
+</p>
+<p>
 <ul>
 {% for member in site.data.members %}
 <li>
@@ -31,3 +31,4 @@ title: 课堂内外，丰富多彩
 </li>
 {% endfor %}
 </ul>
+</p>
